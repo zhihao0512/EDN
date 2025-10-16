@@ -1,0 +1,9 @@
+Pillow
+numpy
+transformers
+diffusers
+omegaconf
+argparse
+math
+os
+einops
