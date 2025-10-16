@@ -20,6 +20,8 @@ This repo provides scripts about:
 # Please install PyTorch first according to your CUDA version
 pip3 install -r requirements_for_sv3d.txt
 ```
+Local deployment and weight download of Sv3d, please refer to [Sv3d-diffusers](https://github.com/chenguolin/sv3d-diffusers)(`sv3d_diffusers_to_collect_noise/infer.py`).
+
 If you want to train the EDN for Sv3d-diffusers, you need to run the train.py in folder golden_noise_net_for_sv3d.
 ```bash
 python train.py
@@ -37,6 +39,8 @@ python infer.py
 # Please install PyTorch first according to your CUDA version
 pip3 install -r requirements_for_mvadapter.txt
 ```
+Local deployment and weight download of Mv-Adapter, please refer to [Mv-Adapter](https://github.com/huanngzh/MV-Adapter).
+
 If you want to train the EDN for Mv-Adapter, you need to run the train.py in folder golden_noise_net_for_mvadapter.
 ```bash
 python train.py
