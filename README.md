@@ -57,5 +57,5 @@ python inference_i2mv_sdxl.py
 | **GT** | ![](assets/Ortho_Forward_Facing_gt/002.png) | ![](assets/Ortho_Forward_Facing_gt/005.png) | ![](assets/Ortho_Forward_Facing_gt/010.png) |
 | **Official SV3D-diffusers** | ![](assets/Ortho_Forward_Facing_standard_sv3d/002.png) | ![](assets/Ortho_Forward_Facing_standard_sv3d/005.png) | ![](assets/Ortho_Forward_Facing_standard_sv3d/010.png) |
 | **SV3D-diffusers with EDN**  | ![](assets/Ortho_Forward_Facing_improve_sv3d/002.png) | ![](assets/Ortho_Forward_Facing_improve_sv3d/005.png) | ![](assets/Ortho_Forward_Facing_improve_sv3d/010.png) |
-| **Official Mv-Adapter** | ![](assets/Ortho_Forward_Facing_standard_mvadapter/015.png) | ![](assets/Ortho_Forward_Facing_standard_mvadapter/018.png) | ![](assets/Ortho_Forward_Facing_standard_mvadapter/024.png) |
-| **Mv-Adapter with EDN**  | ![](assets/Ortho_Forward_Facing_improve_mvadapter/015.png) | ![](assets/Ortho_Forward_Facing_improve_mvadapter/018.png) | ![](assets/Ortho_Forward_Facing_improve_mvadapter/024.png) |
+| **Official Mv-Adapter** | ![](assets/Ortho_Forward_Facing_standard_mvadapter/001.png) | ![](assets/Ortho_Forward_Facing_standard_mvadapter/002.png) | ![](assets/Ortho_Forward_Facing_standard_mvadapter/003.png) |
+| **Mv-Adapter with EDN**  | ![](assets/Ortho_Forward_Facing_improve_mvadapter/001.png) | ![](assets/Ortho_Forward_Facing_improve_mvadapter/002.png) | ![](assets/Ortho_Forward_Facing_improve_mvadapter/003.png) |
