@@ -256,7 +256,7 @@ class StableVideo3DDiffusionPipeline(StableVideoDiffusionPipeline):
         self._num_timesteps = len(timesteps)
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
-                if i < 16:
+                if i < 16: #If you need to modify the number of inference steps here, you should make corresponding changes to the relevant parts in the scale_model_input() and step() functions of the EulerDiscreteInverseScheduler class in euler_discrete_inverse.py.
                     target_mean = latents.mean().item()
                     target_std = latents.std().item()
                     target_mean_list_1.append(target_mean)
@@ -306,7 +306,7 @@ class StableVideo3DDiffusionPipeline(StableVideoDiffusionPipeline):
 
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
-                if i < 16: #If you need to modify the number of inference steps here, you should make corresponding changes to the relevant parts in the scale_model_input() and step() functions of the EulerDiscreteInverseScheduler class in euler_discrete_inverse.py.
+                if i < 16: 
                     # expand the latents if we are doing classifier free guidance
                     latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents
                     latent_model_input = self.inv_scheduler.scale_model_input(latent_model_input, t)
