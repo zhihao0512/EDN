@@ -2771,7 +2771,7 @@ class MVAdapterI2MVSDXLPipeline(StableDiffusionXLPipeline, CustomAdapterMixin):
         org_latents = latents
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
-                if i<m:
+                if i<m:#If you need to modify the number of inference steps here, you should make corresponding changes to the relevant parts in the scale_model_input() and step() functions of the EulerDiscreteInverseScheduler class in euler_discrete_inverse.py.
                     if self.interrupt:
                         continue
                     target_mean = latents.mean().item()
